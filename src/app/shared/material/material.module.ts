@@ -1,0 +1,92 @@
+import { NgModule } from "@angular/core";
+import {
+  MatToolbarModule,
+  MatButtonModule,
+  MatIconModule,
+  MatTabsModule,
+  MatSidenavModule,
+  MatTableModule,
+  MatTreeModule,
+  MatTooltipModule,
+  MatSortModule,
+  MatSnackBarModule,
+  MatSlideToggleModule,
+  MatSliderModule,
+  MatSelectModule,
+  MatRippleModule,
+  MatRadioModule,
+  MatProgressSpinnerModule,
+  MatProgressBarModule,
+  MatPaginatorModule,
+  MatNativeDateModule,
+  MatAutocompleteModule,
+  MatBadgeModule,
+  MatBottomSheetModule,
+  MatButtonToggleModule,
+  MatCardModule,
+  MatCheckboxModule,
+  MatChipsModule,
+  MatStepperModule,
+  MatDatepickerModule,
+  MatDialogModule,
+  MatDividerModule,
+  MatExpansionModule,
+  MatGridListModule,
+  MatInputModule,
+  MatListModule,
+  MatMenuModule
+} from "@angular/material";
+import { ScrollingModule } from "@angular/cdk/scrolling";
+import { PortalModule } from "@angular/cdk/portal";
+import { A11yModule } from "@angular/cdk/a11y";
+import { CdkStepperModule } from "@angular/cdk/stepper";
+import { CdkTableModule } from "@angular/cdk/table";
+import { CdkTreeModule } from "@angular/cdk/tree";
+
+@NgModule({
+  imports: [],
+  exports: [
+    A11yModule,
+    CdkStepperModule,
+    CdkTableModule,
+    CdkTreeModule,
+    MatAutocompleteModule,
+    MatBadgeModule,
+    MatBottomSheetModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+    MatCardModule,
+    MatCheckboxModule,
+    MatChipsModule,
+    MatStepperModule,
+    MatDatepickerModule,
+    MatDialogModule,
+    MatDividerModule,
+    MatExpansionModule,
+    MatGridListModule,
+    MatIconModule,
+    MatInputModule,
+    MatListModule,
+    MatMenuModule,
+    MatNativeDateModule,
+    MatPaginatorModule,
+    MatProgressBarModule,
+    MatProgressSpinnerModule,
+    MatRadioModule,
+    MatRippleModule,
+    MatSelectModule,
+    MatSidenavModule,
+    MatSliderModule,
+    MatSlideToggleModule,
+    MatSnackBarModule,
+    MatSortModule,
+    MatTableModule,
+    MatTabsModule,
+    MatToolbarModule,
+    MatTooltipModule,
+    MatTreeModule,
+    PortalModule,
+    ScrollingModule
+  ]
+})
+export class MaterialModule {}
