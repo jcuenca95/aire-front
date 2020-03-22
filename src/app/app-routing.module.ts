@@ -8,6 +8,11 @@ const routes: Routes = [
       import("./autonomies/autonomies.module").then(m => m.AutonomiesModule)
   },
   {
+    path: "hospitals",
+    loadChildren: () =>
+      import("./hospitals/hospitals.module").then(m => m.HospitalsModule)
+  },
+  {
     path: "",
     redirectTo: "autonomies",
     pathMatch: "full"
